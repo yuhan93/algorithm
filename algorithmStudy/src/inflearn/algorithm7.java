@@ -35,15 +35,10 @@ public class algorithm7 {
         String result = "";
         for(int i = 0 ; i < cnt; i++){
             String tmp = str.substring(0,7).replace('#','1').replace('*','0');
-            System.out.println("tmp : " + tmp);
             int num = Integer.parseInt(tmp,2);
-            System.out.println( "num : " + num);
             result += (char)num;
-            System.out.println("result : " + result);
             str = str.substring(7);
-            System.out.println("str : " + str);
         }
         System.out.println(result);
-
     }
 }
