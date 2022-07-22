@@ -2,7 +2,7 @@ package inflearn;
 
 import java.util.Scanner;
 
-public class algorithm9 {
+public class algorithm09 {
     public static void main(String arg[]){
         /*
         설명 : 선생님이 N명의 학생을 일렬로 세웠습니다. 일렬로 서 있는 학생의 키가 앞에서부터 순서대로 주어질 때, 맨 앞에 서 있는

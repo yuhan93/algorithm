@@ -2,7 +2,7 @@ package inflearn;
 
 import java.util.Scanner;
 
-public class algorithm6 {
+public class algorithm06 {
     public static void main(String arg[]){
         /*
         설명 : 알파벳 대문자로 이루어진 문자열을 입력받아 같은 문자가 연속으로 반복되는 경우 반복되는

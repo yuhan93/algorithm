@@ -2,7 +2,7 @@ package inflearn;
 
 import java.util.Scanner;
 
-public class algorithm3 {
+public class algorithm03 {
     public static void main(String arg[]){
         /*
         설명 : 앞에서 읽을 때나 뒤에서 읽을 때나 같은 문자열을 팰린드롬이라고 합니다.
