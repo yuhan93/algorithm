@@ -27,14 +27,11 @@ public class algorithm13 {
         ArrayList<Integer> arraylist = new ArrayList<Integer>();
         for(int i = 0 ; i < N; i ++){
             int tmp = arr[i];
-            // 32
             int res = 0;
-            // 32
             while(tmp > 0){
-                System.out.print(arr[i] + " ");
-                int t = tmp % 10; // 2
-                res = res * 10 + t; // 2
-                tmp = tmp / 10; // 3
+                int t = tmp % 10;
+                res = res * 10 + t;
+                tmp = tmp / 10;
             }
             if(isPrime(res)){
                 arraylist.add(res);
