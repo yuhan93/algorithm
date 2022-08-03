@@ -38,11 +38,30 @@ public class algorithm19 {
          */
         Scanner sc = new Scanner(System.in);
         int N = sc.nextInt();
-        int[][] arr = new int[N][N];
-        for(int i = 0 ; i < N; i++){
-            for(int j = 0 ; j < N; j++){
+        int[][] arr = new int[N+1][6];
+        for(int i = 1 ; i <= N; i++){
+            for(int j = 1 ; j <= 5; j++){
                 arr[i][j] = sc.nextInt();
             }
         }
+        int answer = 0;
+        int minValue = Integer.MIN_VALUE;
+        for(int i = 1 ; i <= N; i++){
+            int result = 0;
+            for(int j = 1 ; j <= N; j++){
+                for(int k = 1; k <= 5; k++){
+                    if(arr[i][k] == arr[j][k]){
+                        result++;
+                        break;
+                    }
+                }
+                if(result > minValue){
+                    minValue = result;
+                    answer = i;
+                }
+            }
+        }
+        System.out.println(answer);
+
     }
 }
