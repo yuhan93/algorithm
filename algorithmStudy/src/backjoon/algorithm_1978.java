@@ -1,4 +1,4 @@
-package backjoon;
+package algorithm.algorithmStudy.src.backjoon;
 
 import java.util.Scanner;
 
