@@ -9,15 +9,10 @@ public class BinarySearch {
 		System.out.println(binarySearch2(99,0,arr.length-1));
 	}
 	static int binarySearch(int key, int low, int high){
-		System.out.println("key ::: " + key);
-		System.out.println("low ::: " + low);
-		System.out.println("high ::" + high);
 		int mid;
 
 		if(low <= high){
 			mid = (low + high) / 2;
-			System.out.println("mid :::: " + mid);
-			System.out.println("arr[mid] :::: " + arr[mid]);
 			// 탐색 성공 시
 			if(key == arr[mid]){
 				return mid;

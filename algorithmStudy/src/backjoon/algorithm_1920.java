@@ -31,36 +31,39 @@ public class algorithm_1920 {
 		* 1
 		*/
 		Scanner sc = new Scanner(System.in);
-		int[] arr = new int[sc.nextInt()];
-		for(int i = 0 ; i < arr.length; i++){
+		int[] arr = new int[sc.nextInt()]; // 처음 입력 된 배열 크기 선언
+		for(int i = 0 ; i < arr.length; i++){ // 배열 안에 원소 넣기
 			arr[i] = sc.nextInt();
 		}
-		Arrays.sort(arr);
+		Arrays.sort(arr); // 오름 차순 정렬
 
-		int M = sc.nextInt();
+		int M = sc.nextInt(); // 두번째 배열 크기 선언
 		int[] arr2 = new int[M];
-		for(int i = 0 ; i < arr2.length; i++){
+		for(int i = 0 ; i < arr2.length; i++){ // 두번째 배열 안에 원소 넣기
 			arr2[i] = sc.nextInt();
 		}
+		// 두번재 배열 반복문을 통해서 입력된 원소 0~N 번 까지 비교 한다.
 		for(int i = 0; i < arr2.length; i++){
-			System.out.println(binarySearch(arr2[i], arr));
+			System.out.println(binarySearch(arr2[i], arr)); // 이진 탐색 메소드
 		}
 
 	}
 	public static int binarySearch(int key , int[] arr){
-		int low = 0 ;
-		int high = arr.length-1;
-		int mid = 0;
-		while(low <= high){
-			mid = (low + high) / 2;
-			if(key == arr[mid]){
+		int low = 0 ; // 탐색 범위의 왼쪽 끝 인덱스
+		int high = arr.length-1; // 탐색 범위의 오른쪽 끝 인덱스
+		int mid = 0; // 중간위치 값
+
+		while(low <= high){ // low가 high보다 커지기 전까지 반복문을 돌린다.
+			mid = (low + high) / 2; // 중간의 위치를 구한다.
+			if(key == arr[mid]){ // key 값이 중간 위치인 경우
 				return 1;
-			} else if (key < arr[mid]){
+			} else if (key < arr[mid]){ // key 값이 중간 위치보다 작을 경우
 				high = mid -1;
-			} else {
+			} else { // key 값이 중간 위치보다 클 경우
 				low = mid +1;
 			}
 		}
+		// 찾고자 하는 값이 없는 경우
 		return 0;
 	}
 
