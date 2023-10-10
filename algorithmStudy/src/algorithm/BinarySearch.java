@@ -6,12 +6,18 @@ public class BinarySearch {
 
 	public static void main(String[] args) {
 		System.out.println(binarySearch(99,0,arr.length-1));
+		System.out.println(binarySearch2(99,0,arr.length-1));
 	}
 	static int binarySearch(int key, int low, int high){
+		System.out.println("key ::: " + key);
+		System.out.println("low ::: " + low);
+		System.out.println("high ::" + high);
 		int mid;
 
 		if(low <= high){
 			mid = (low + high) / 2;
+			System.out.println("mid :::: " + mid);
+			System.out.println("arr[mid] :::: " + arr[mid]);
 			// 탐색 성공 시
 			if(key == arr[mid]){
 				return mid;
@@ -22,5 +28,20 @@ public class BinarySearch {
 			}
 		}
 		return -1; // 탐색 실패 시
+	}
+	static int binarySearch2(int key, int low, int high){
+		int mid;
+
+		while(low <= high){
+			mid = (low + high) / 2;
+			if(key == arr[mid]){
+				return mid;
+			} else if(key < arr[mid]){
+				high = mid -1;
+			} else {
+				low = mid + 1;
+			}
+		}
+		return -1;
 	}
 }
