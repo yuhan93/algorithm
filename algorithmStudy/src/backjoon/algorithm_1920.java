@@ -44,7 +44,7 @@ public class algorithm_1920 {
 		}
 		// 두번재 배열 반복문을 통해서 입력된 원소 0~N 번 까지 비교 한다.
 		for(int i = 0; i < arr2.length; i++){
-			System.out.println(binarySearch(arr2[i], arr)); // 이진 탐색 메소드
+			System.out.println(binarySearch(arr2[i], arr)); // 이분 탐색 메소드
 		}
 
 	}
