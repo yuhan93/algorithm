@@ -31,7 +31,7 @@ public class algorithm_10816 {
 		* 예제 출력 1
 		* 3 0 0 1 2 0 0 2
 		* */
-		
+
 		Scanner sc = new Scanner(System.in);
 		int N = sc.nextInt();
 		int arr[] = new int[N];
