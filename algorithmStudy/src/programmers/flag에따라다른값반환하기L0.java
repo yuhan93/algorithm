@@ -1,6 +1,6 @@
 package programmers;
 
-public class flag에따라다른값반환하기 {
+public class flag에따라다른값반환하기L0 {
 
 	public int solution(int a, int b, boolean flag) {
 		int answer = 0;

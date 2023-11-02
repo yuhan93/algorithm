@@ -1,6 +1,6 @@
 package programmers;
 
-public class 문자열뒤집기 {
+public class 문자열뒤집기L0 {
 	public static void main(String[] args) {
 		String my_string = "jaron";
 		String answer = "";

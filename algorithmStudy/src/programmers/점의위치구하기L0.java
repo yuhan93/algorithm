@@ -1,6 +1,6 @@
 package programmers;
 
-public class 점의위치구하기 {
+public class 점의위치구하기L0 {
 	public static void main(String[] args) {
 		int answer = 0;
 		int[] dot = {2,4};

@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.Collections;
 
-public class 배열뒤집기 {
+public class 배열뒤집기L0 {
 	public static void main(String[] args) {
 		int[] num_list = {1,2,3,4,5};
 		int[] reverse = new int[num_list.length];

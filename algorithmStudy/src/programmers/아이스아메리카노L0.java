@@ -1,6 +1,6 @@
 package programmers;
 
-public class 아이스아메리카노 {
+public class 아이스아메리카노L0 {
 	public static void main(String[] args) {
 		int[] answer = new int[2];
 		int money = 5000;
