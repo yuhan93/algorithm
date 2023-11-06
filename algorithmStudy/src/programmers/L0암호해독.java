@@ -1,6 +1,6 @@
 package programmers;
 
-public class 암호해독L0 {
+public class L0암호해독 {
 	public static void main(String[] args) {
 		String a = "dfjardstddetckdaccccdegk";
 		int b = 4;

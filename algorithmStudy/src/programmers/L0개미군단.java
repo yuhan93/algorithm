@@ -1,6 +1,6 @@
 package programmers;
 
-public class 개미군단L0 {
+public class L0개미군단 {
 	public static void main(String[] args) {
 		// hp = 23
 		// 장군 = 5

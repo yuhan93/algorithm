@@ -1,6 +1,6 @@
 package programmers;
 
-public class 달리기경주L1 {
+public class L1달리기경주 {
 	public static void main(String[] args) {
 		/*
 		* 얀에서는 매년 달리기 경주가 열립니다.

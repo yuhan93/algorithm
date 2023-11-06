@@ -1,6 +1,6 @@
 package programmers;
 
-public class 짝수는싫어요L0 {
+public class L0짝수는싫어요 {
 	public static void main(String[] args) {
 		int n = 10;
 		int[] answer;

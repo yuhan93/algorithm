@@ -1,6 +1,6 @@
 package programmers;
 
-public class 옷가게할인받기L0 {
+public class L0옷가게할인받기 {
 	public static void main(String[] args) {
 		// 10만원 이상 5%
 		// 30만원 이상 10%

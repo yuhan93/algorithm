@@ -1,6 +1,6 @@
 package programmers;
 
-public class 자릿수더하기L0 {
+public class L0자릿수더하기 {
 	public static void main(String[] args) {
 
 		int n = 1234;

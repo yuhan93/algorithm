@@ -1,6 +1,6 @@
 package programmers;
 
-public class 특정문자제거하기L0 {
+public class L0특정문자제거하기 {
 	public static void main(String[] args) {
 		String my_string = "abcdef";
 		String letter = "f";

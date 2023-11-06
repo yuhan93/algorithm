@@ -1,6 +1,6 @@
 package programmers;
 
-public class 카운트다운L0 {
+public class L0카운트다운 {
 	public static void main(String[] args) {
 		int start = 10;
 		int end_num = 3;

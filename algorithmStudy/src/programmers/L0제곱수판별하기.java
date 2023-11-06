@@ -1,6 +1,6 @@
 package programmers;
 
-public class 제곱수판별하기L0 {
+public class L0제곱수판별하기 {
 	public static void main(String[] args) {
 		int n = 976;
 		int answer = 0 ;

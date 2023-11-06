@@ -1,6 +1,6 @@
 package programmers;
 
-public class 대문자와소문자L0 {
+public class L0대문자와소문자 {
 	public static void main(String[] args) {
 		String a = "cccCCC";
 		String b = "";

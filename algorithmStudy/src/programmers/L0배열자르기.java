@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.Arrays;
 
-public class 배열자르기L0 {
+public class L0배열자르기 {
 	public static void main(String[] args) {
 
 		int[] numbers = {1,2,3,4,5};

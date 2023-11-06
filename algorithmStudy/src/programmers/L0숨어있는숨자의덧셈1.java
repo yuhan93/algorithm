@@ -1,6 +1,6 @@
 package programmers;
 
-public class 숨어있는숨자의덧셈1L0 {
+public class L0숨어있는숨자의덧셈1 {
 	public static void main(String[] args) {
 		/*
 		* 문자열 my_string이 매개변수로 주어집니다.

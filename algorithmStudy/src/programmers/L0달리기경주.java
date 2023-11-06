@@ -2,7 +2,7 @@ package programmers;
 
 import java.util.Arrays;
 
-public class 달리기경주L0 {
+public class L0달리기경주 {
 	public static void main(String[] args) {
 
 		String a = "hello";

@@ -1,6 +1,6 @@
 package programmers;
 
-public class 모음제거L0 {
+public class L0모음제거 {
 	public static void main(String[] args) {
 		String[] arr = {"a","e","i","o","u"};
 		String str = "bus";

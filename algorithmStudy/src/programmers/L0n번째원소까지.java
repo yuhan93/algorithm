@@ -1,6 +1,6 @@
 package programmers;
 
-public class n번째원소까지L0 {
+public class L0n번째원소까지 {
 
 	public int[] solution(int[] num_list, int n) {
 

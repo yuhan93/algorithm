@@ -1,6 +1,6 @@
 package programmers;
 
-public class 배열원소의길이L0 {
+public class L0배열원소의길이 {
 	public static void main(String[] args) {
 
 		String[] strlist = {"We", "are", "the", "world!"};

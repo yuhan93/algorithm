@@ -1,6 +1,6 @@
 package programmers;
 
-public class n의배수고르기L0 {
+public class L0n의배수고르기 {
 	public static void main(String[] args) {
 		int[] a = {4,5,6,7,8,9,10,11,12};
 		int n = 3;

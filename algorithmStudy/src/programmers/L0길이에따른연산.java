@@ -1,6 +1,6 @@
 package programmers;
 
-public class 길이에따른연산L0 {
+public class L0길이에따른연산 {
 	public static void main(String[] args) {
 		int[] num_list = {1,2,3,4,5,6,7,8,9};
 		int answer = 0;

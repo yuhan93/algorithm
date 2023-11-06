@@ -1,6 +1,6 @@
 package programmers;
 
-public class 세균증식L0 {
+public class L0세균증식 {
 	public static void main(String[] args) {
 		int n = 2; // 마리 수
 		int t = 10; // 시간
