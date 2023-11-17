@@ -7,11 +7,19 @@ public class L0치킨쿠폰 {
 		// 쿠폰 10개 모으면 치킨 1마리 주는데
 		// 거기에도 쿠폰 들어가있음
 		int chicken = 1081;
+		int coupon = 0;
 		int answer = 0;
 
-		if(chicken / 10 == 10){
-			answer = answer +1;
+		while (chicken + coupon >= 10){
+			int a = (chicken + coupon) / 10;
+			int b = (chicken + coupon) % 10;
+
+			chicken = a;
+			coupon = b;
+			answer += chicken;
+
 		}
+		System.out.println("@@" + answer);
 
 	}
 }
